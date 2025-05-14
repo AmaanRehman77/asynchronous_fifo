@@ -1,6 +1,6 @@
 # Asynchronous FIFO (`asymfifo`) in SystemVerilog
 
-A synthesizable, parameterizable dual-clock FIFO for crossing data safely between unrelated write and read clock domains.
+A synthesizable, parameterizable dual-clock FIFO for crossing data safely (by using gray code encoding for read write pointers) between unrelated write and read clock domains.
 
 ---
 
